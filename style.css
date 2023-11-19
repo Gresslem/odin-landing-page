@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    background-color: #ff99eb;
+}
+
+.loli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0;
+    margin: 6px;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ff99eb;
+    padding: 36px;
+    margin: 0;
+}
