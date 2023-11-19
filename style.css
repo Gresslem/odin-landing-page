@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    background-color: #ff99eb;
+    background-color: #00855d;
 }
 
 .loli {
@@ -12,6 +12,8 @@
 
 .logo {
     font-size: 24px;
+    margin: 10px;
+    color: #ff8aff;
 }
 
 ul {
@@ -21,16 +23,25 @@ ul {
 
 li {
     padding: 0;
-    margin: 6px;
+    margin: 10px;
     gap: 24px;
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ff8aff;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: #ff99eb;
+    background-color: #00855d;
     padding: 36px;
     margin: 0;
+}
+
+.copyright {
+    color: #ff8aff;
 }

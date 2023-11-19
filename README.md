@@ -9,3 +9,5 @@ Just kidding started this on 11/17.
 
 Having trouble geting the call to action to center itslef on the page.
 Scrapped the call container and starting on the header. 11/18
+
+With the top of the page and bottom of the page built the way I want for now, I'm gonna get the layout done based on the Odin Project's finished look and work on it from there.
