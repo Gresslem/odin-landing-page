@@ -1,4 +1,4 @@
-.header {
+.header, .header2 {
     display: flex;
     background-color: #00855d;
 }
@@ -11,7 +11,7 @@
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     margin: 10px;
     color: #ff8aff;
 }
@@ -19,6 +19,7 @@
 ul {
     display: flex;
     flex-direction: row;
+    font-size: 20px;
 }
 
 li {
@@ -31,6 +32,19 @@ li {
 a {
     text-decoration: none;
     color: #ff8aff;
+}
+
+.large {
+    font-size: 48px;
+}
+
+img {
+    height: 200px;
+    width: 800px;
+}
+
+.para {
+    font-size: 20px;
 }
 
 .footer {
