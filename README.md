@@ -11,3 +11,5 @@ Having trouble geting the call to action to center itslef on the page.
 Scrapped the call container and starting on the header. 11/18
 
 With the top of the page and bottom of the page built the way I want for now, I'm gonna get the layout done based on the Odin Project's finished look and work on it from there.
+
+Bare bones structure was built on 11/19. Tomorrow will start the customization process. Odds are the start will be Tuesday. The website will be for my production company, for my audio projects, or just projects that I produce.

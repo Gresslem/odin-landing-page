@@ -8,11 +8,11 @@
     justify-content: space-between;
     align-items: center;
     flex: 1;
+    margin: 0px 20px;
 }
 
 .logo {
     font-size: 30px;
-    margin: 10px;
     color: #ff8aff;
 }
 
@@ -34,17 +34,127 @@ a {
     color: #ff8aff;
 }
 
+.header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.headtext {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .large {
     font-size: 48px;
 }
 
-img {
+.image {
     height: 200px;
-    width: 800px;
+    width: 500px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .para {
     font-size: 20px;
+}
+
+button {
+    background-color: #3bc595;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    padding: 5px;
+}
+
+.information {
+    margin-bottom: 50px;
+}
+
+.ihead {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.blank {
+    height: 125px;
+    width: 125px;
+    border: solid #3bc595;
+    border-radius: 8px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    max-width: 130px;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 75px;
+}
+
+p {
+    font-size: 36px;
+}
+
+.speaker {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta {
+    background-color: #3bc595;
+    display: flex;
+    margin: 75px 50px;
+    padding: 70px 125px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.lower {
+    font-size: 16px;
+}
+
+.button {
+    border: solid white 1px;
 }
 
 .footer {
