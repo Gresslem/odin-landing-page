@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+}
+
 .header, .header2 {
     display: flex;
-    background-color: #00855d;
+    background-color: black;
 }
 
 .loli {
@@ -13,13 +17,14 @@
 
 .logo {
     font-size: 30px;
+    padding: 10px;
     color: #ff8aff;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 li {
@@ -40,6 +45,7 @@ a {
     align-items: center;
     gap: 50px;
     padding: 50px;
+    color: white;
 }
 
 .headtext {
@@ -55,7 +61,7 @@ a {
 
 .image {
     height: 200px;
-    width: 500px;
+    width: 400px;
     background-color: gray;
     display: flex;
     justify-content: center;
@@ -67,7 +73,7 @@ a {
 }
 
 button {
-    background-color: #3bc595;
+    background-color: #b840b2;
     font-size: 16px;
     border-radius: 5px;
     border-style: none;
@@ -96,7 +102,7 @@ button {
 .blank {
     height: 125px;
     width: 125px;
-    border: solid #3bc595;
+    border: solid #b840b2;
     border-radius: 8px;
 }
 
@@ -118,7 +124,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #e6e6e6;
+    background-color: #ce0ac456;
     font-family: Arial, Helvetica, sans-serif;
     padding: 75px;
 }
@@ -132,13 +138,14 @@ p {
     justify-content: flex-end;
     font-size: 24px;
     font-weight: bold;
+    color: rgb(73, 45, 73);
 }
 
 .cta {
-    background-color: #3bc595;
+    background-color: #b840b2;
     display: flex;
-    margin: 75px 50px;
-    padding: 70px 125px;
+    margin: 75px;
+    padding: 60px 100px;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
@@ -154,14 +161,14 @@ p {
 }
 
 .button {
-    border: solid white 1px;
+    border: solid rgb(73, 45, 73) 1px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: #00855d;
+    background-color: black;
     padding: 36px;
     margin: 0;
 }
